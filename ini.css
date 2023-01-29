@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{/*sección debajo del wave*/
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    justify-content: center;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
